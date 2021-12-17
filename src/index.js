@@ -1,1 +1,0 @@
-console.log(`Pruebas en la consola`);
