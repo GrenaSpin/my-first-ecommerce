@@ -9,7 +9,7 @@
     <!--FONT OSWALD-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="../css/register.css">
     <title>Ecommerce</title>
@@ -19,15 +19,39 @@
         <div class="header">
             <h2>Create Account</h2>
         </div>
-        <form action="" class="form" id="form">
+        <form class="form" id="form">
             <div class="form-control">
                 <label>Username: </label>
                 <input type="text" placeholder="florinpop17" id="username">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
-                <small></small>
+                <small>Error message</small>
             </div>
+            <div class="form-control">
+                <label>Email: </label>
+                <input type="email" placeholder="email@gmail.com" id="email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Password: </label>
+                <input type="password" placeholder="password" id="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Password check: </label>
+                <input type="password" placeholder="password" id="passwordTwo">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button >Submit</button>
         </form>
     </div>
+
+    <script src="../js/register.js"></script>
 </body>
 </html>
