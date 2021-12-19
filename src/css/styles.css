@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+/*Variables*/
+:root {
+    --primaryColor: rgb(13, 17, 23);
+    --mainWhite: rgb(238, 238, 238);
+    --mainBlack: rgb(22, 27, 34);
+    --mainBlue: rgb(51, 166, 255);
+    --mainDarkGrey: rgb(43, 48, 56);
+    --mainGrey: #ececec;
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: var(--primaryColor);
+    color: var(--mainWhite);
+}
+
+/*--Navbar--*/
+.navbar{
+    background: var(--mainDarkGrey);
+    position: sticky;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
